@@ -1,0 +1,22 @@
+{
+  "name": "user_snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./dstcopyright-cpp.json"
+      },
+      {
+        "language": "cuda",
+        "path": "./dstcopyright-cpp.json"
+      },
+      {
+        "language": "python",
+        "path": "./dstcopyright-python.json"
+      }
+    ]
+  }
+}

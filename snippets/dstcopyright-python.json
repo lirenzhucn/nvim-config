@@ -1,0 +1,25 @@
+{
+  "dstcopyright-python": {
+    "prefix": ["dstcopyright"],
+    "body": [
+      "#================================",
+      "# Copyright (C) DeepSight™ Technology, Inc ${CURRENT_YEAR}. All rights reserved.",
+      "#",
+      "# This computer program contains CONFIDENTIAL and PROPRIETARY INFORMATION of",
+      "# DeepSight™ Technology, Inc. and is protected by trade secret law, copyright law",
+      "# and international treaties. The information may additionally be covered by",
+      "# pending and granted U.S. and International Patents.",
+      "#",
+      "# WARNING: Dissemination, distribution, modification or reproduction of all or a",
+      "# portion of this CONFIDENTIAL and PROPRIETARY INFORMATION is strictly forbidden",
+      "# unless prior written permission is obtained from DeepSight™ Technology, Inc.",
+      "# Unauthorized dissemination, distribution, modification or reproduction of all or",
+      "# a portion of this program and its CONFIDENTIAL & PROPRIETARY INFORMATION may",
+      "# result in severe civil and criminal penalties and will be prosecuted to the",
+      "# maximum extent possible under the law.",
+      "#================================",
+	  ""
+    ],
+    "description": "DeepSight copyright notice"
+  }
+}
