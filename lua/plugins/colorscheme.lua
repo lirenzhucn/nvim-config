@@ -13,11 +13,19 @@ return {
   {
     'slugbyte/lackluster.nvim',
     lazy = false,
-    -- priority = 1000,
+    opts = {
+      tweak_background = {
+        normal = 'none', -- transparent
+        telescope = 'default', -- telescope
+        menu = 'default', -- nvim_cmp, wildmenu ... (bad idea to transparent)
+        popup = 'default', -- lazy, mason, whichkey ... (bad idea to transparent)
+      },
+    },
+    priority = 1000,
     -- init = function()
     --   -- vim.cmd.colorscheme 'lackluster'
-    --   -- vim.cmd.colorscheme 'lackluster-hack' -- my favorite
-    --   vim.cmd.colorscheme 'lackluster-mint'
+    --   vim.cmd.colorscheme 'lackluster-hack' -- my favorite
+    --   -- vim.cmd.colorscheme 'lackluster-mint'
     -- end,
   },
   {
