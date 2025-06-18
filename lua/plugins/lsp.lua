@@ -24,6 +24,9 @@ return {
     opts = {},
     cmd = 'VenvSelect',
   },
+  -- towolf/vim-helm provides basic syntax highlighting and filetype detection
+  -- ft = 'helm' is important to not start yamlls
+  { 'towolf/vim-helm', ft = 'helm' },
   {
     -- Main LSP Configuration
     'neovim/nvim-lspconfig',
@@ -221,6 +224,7 @@ return {
         },
 
         yamlls = {},
+        helm_ls = {},
       }
 
       -- You can add other tools here that you want Mason to install
